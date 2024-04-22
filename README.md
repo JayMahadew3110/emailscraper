@@ -26,6 +26,7 @@ To set up the frontend in this application, open the folder called "frontend" in
 The application is very simple and straightforward. On the home page, you will have the option to log in or navigate to the view email page. The view email page can only be viewed by logged-in users, so either way, you have to log in. You will not be able to create new users yet because only admin accounts can create new users. An admin account has been provided with the following credentials:
 
 Email: admin@gmail.com
+
 Password: admin
 
 If the admin account gets deleted (system should prevent this) or lost, simply clear out the whole database and restart the backend. A new admin user will be generated using JPA.
